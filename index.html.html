@@ -1,0 +1,111 @@
+<html>
+<head>
+<style>
+body {
+  background-image:url('4.jpg');
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+* {
+  box-sizing: border-box;
+}
+
+.columns {
+  float: left;
+  width: 33.3%;
+  padding: 8px;
+}
+
+.price {
+  background-color:#808080;
+  list-style-type: none;
+  border: 1px solid #eee;
+  margin:  0;
+  padding: 0;
+  -webkit-transition: 0.3s;
+  transition: 0.3s;
+}
+
+.price:hover {
+  box-shadow: 0 8px 12px 0 rgba(0,0,0,0.2)
+}
+
+.price .header {
+  background-color: #808080;
+  color: white;
+  font-size: 25px;
+}
+
+.price li {
+  background-color:#FFFFFF;
+  border-bottom: 1px solid #eee;
+  padding: 20px;
+  text-align: center;
+}
+
+.price .grey {
+  background-color: #eee;
+  font-size: 20px;
+}
+
+.button {
+  background-color:  #44a6c6;
+  border: none;
+  color: white;
+  padding: 10px 25px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+@media only screen and (max-width: 600px) {
+  .columns {
+    width: 100%;
+  }
+}
+</style>
+</head>
+<body>
+
+<h2 style="text-align:center">Disney + Hotstar</h2>
+<p style="text-align:center">Subscribe Now and Start Streaming</p>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Subscription</li>
+    <li class="grey">Rs. 899 / year</li>
+    <li>10GB Storage</li>
+    <li>Max video Quality 780P</li>
+    <li>max Audio Quality</li>
+    <li>2 Devises</li>
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header" style="background-color:#04AA6D">Premium</li>
+    <li class="grey">Rs. 1400 / year</li>
+    <li>25GB Storage</li>
+    <li>Max video Quality 1080P</li>
+    <li>Max Audio Quality</li>
+    <li>4 Devises</li>
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+<div class="columns">
+  <ul class="price">
+    <li class="header">Premium plus</li>
+    <li class="grey">Rs.1800 / year</li>
+    <li>50GB Storage</li>
+    <li>Max Video Quality 4K</li>
+    <li>Max Audio Quality</li>
+    <li>8 Devises</li>
+    <li class="grey"><a href="#" class="button">Sign Up</a></li>
+  </ul>
+</div>
+
+</body>
+</html>
